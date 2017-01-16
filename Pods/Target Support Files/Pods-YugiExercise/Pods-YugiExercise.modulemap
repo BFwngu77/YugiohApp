@@ -1,0 +1,6 @@
+framework module Pods_YugiExercise {
+  umbrella header "Pods-YugiExercise-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3581F61CB01AE0F60C022785 /* Pods_YugiExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE10C696835BADC33324F86 /* Pods_YugiExercise.framework */; };
 		8929F4361E2ABBD5000E11B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929F4351E2ABBD5000E11B8 /* AppDelegate.swift */; };
 		8929F4381E2ABBD5000E11B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8929F4371E2ABBD5000E11B8 /* ViewController.swift */; };
 		8929F43B1E2ABBD5000E11B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8929F4391E2ABBD5000E11B8 /* Main.storyboard */; };
 		8929F43D1E2ABBD5000E11B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8929F43C1E2ABBD5000E11B8 /* Assets.xcassets */; };
 		8929F4401E2ABBD5000E11B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8929F43E1E2ABBD5000E11B8 /* LaunchScreen.storyboard */; };
+		89BA6C7B1E2AD78C00CD52EA /* ComicBubble.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89BA6C7A1E2AD78C00CD52EA /* ComicBubble.ttf */; };
+		89BA6C7D1E2ADDE300CD52EA /* QuatSteel Update 2015.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89BA6C7C1E2ADDE300CD52EA /* QuatSteel Update 2015.ttf */; };
+		89BA6C811E2AE28C00CD52EA /* MarvelCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6C801E2AE28C00CD52EA /* MarvelCharacter.swift */; };
+		89BA6C831E2AE4EC00CD52EA /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6C821E2AE4EC00CD52EA /* CharacterCell.swift */; };
+		89BA6C851E2C27E900CD52EA /* Starwars.csv in Resources */ = {isa = PBXBuildFile; fileRef = 89BA6C841E2C27E900CD52EA /* Starwars.csv */; };
+		89BA6C871E2C285100CD52EA /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6C861E2C285100CD52EA /* csv.swift */; };
+		89BA6C891E2C35FD00CD52EA /* CharacterDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6C881E2C35FD00CD52EA /* CharacterDetailsViewController.swift */; };
+		89BA6C8C1E2C44C400CD52EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA6C8B1E2C44C400CD52EA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4410398F9C687A32399B068D /* Pods-YugiExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YugiExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-YugiExercise/Pods-YugiExercise.release.xcconfig"; sourceTree = "<group>"; };
+		4DE10C696835BADC33324F86 /* Pods_YugiExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YugiExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8929F4321E2ABBD5000E11B8 /* YugiExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YugiExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8929F4351E2ABBD5000E11B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8929F4371E2ABBD5000E11B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,15 @@
 		8929F43C1E2ABBD5000E11B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8929F43F1E2ABBD5000E11B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8929F4411E2ABBD5000E11B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BA6C7A1E2AD78C00CD52EA /* ComicBubble.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComicBubble.ttf; sourceTree = "<group>"; };
+		89BA6C7C1E2ADDE300CD52EA /* QuatSteel Update 2015.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "QuatSteel Update 2015.ttf"; sourceTree = "<group>"; };
+		89BA6C801E2AE28C00CD52EA /* MarvelCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelCharacter.swift; sourceTree = "<group>"; };
+		89BA6C821E2AE4EC00CD52EA /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		89BA6C841E2C27E900CD52EA /* Starwars.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Starwars.csv; sourceTree = "<group>"; };
+		89BA6C861E2C285100CD52EA /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		89BA6C881E2C35FD00CD52EA /* CharacterDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewController.swift; sourceTree = "<group>"; };
+		89BA6C8B1E2C44C400CD52EA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C26107E6EE6190006DBAA30D /* Pods-YugiExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YugiExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YugiExercise/Pods-YugiExercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3581F61CB01AE0F60C022785 /* Pods_YugiExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58883D4FB04C4549EB343E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE10C696835BADC33324F86 /* Pods_YugiExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8929F4291E2ABBD5000E11B8 = {
 			isa = PBXGroup;
 			children = (
 				8929F4341E2ABBD5000E11B8 /* YugiExercise */,
 				8929F4331E2ABBD5000E11B8 /* Products */,
+				DD87505C3D473493462F62BF /* Pods */,
+				58883D4FB04C4549EB343E1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,79 @@
 		8929F4341E2ABBD5000E11B8 /* YugiExercise */ = {
 			isa = PBXGroup;
 			children = (
-				8929F4351E2ABBD5000E11B8 /* AppDelegate.swift */,
-				8929F4371E2ABBD5000E11B8 /* ViewController.swift */,
-				8929F4391E2ABBD5000E11B8 /* Main.storyboard */,
-				8929F43C1E2ABBD5000E11B8 /* Assets.xcassets */,
-				8929F43E1E2ABBD5000E11B8 /* LaunchScreen.storyboard */,
-				8929F4411E2ABBD5000E11B8 /* Info.plist */,
+				89BA6C8A1E2C44B200CD52EA /* Constants */,
+				89BA6C791E2AC01900CD52EA /* STORYBOARDS */,
+				89BA6C751E2ABFD800CD52EA /* MODEL */,
+				89BA6C761E2ABFE000CD52EA /* VIEW */,
+				89BA6C771E2ABFE700CD52EA /* CONTROLLER */,
+				89BA6C781E2AC00600CD52EA /* RESOURCES */,
 			);
 			path = YugiExercise;
+			sourceTree = "<group>";
+		};
+		89BA6C751E2ABFD800CD52EA /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				89BA6C801E2AE28C00CD52EA /* MarvelCharacter.swift */,
+			);
+			name = MODEL;
+			sourceTree = "<group>";
+		};
+		89BA6C761E2ABFE000CD52EA /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				89BA6C821E2AE4EC00CD52EA /* CharacterCell.swift */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		89BA6C771E2ABFE700CD52EA /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				8929F4371E2ABBD5000E11B8 /* ViewController.swift */,
+				89BA6C881E2C35FD00CD52EA /* CharacterDetailsViewController.swift */,
+			);
+			name = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		89BA6C781E2AC00600CD52EA /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				8929F4351E2ABBD5000E11B8 /* AppDelegate.swift */,
+				8929F43C1E2ABBD5000E11B8 /* Assets.xcassets */,
+				89BA6C861E2C285100CD52EA /* csv.swift */,
+				89BA6C841E2C27E900CD52EA /* Starwars.csv */,
+				89BA6C7A1E2AD78C00CD52EA /* ComicBubble.ttf */,
+				89BA6C7C1E2ADDE300CD52EA /* QuatSteel Update 2015.ttf */,
+				8929F4411E2ABBD5000E11B8 /* Info.plist */,
+			);
+			name = RESOURCES;
+			sourceTree = "<group>";
+		};
+		89BA6C791E2AC01900CD52EA /* STORYBOARDS */ = {
+			isa = PBXGroup;
+			children = (
+				8929F4391E2ABBD5000E11B8 /* Main.storyboard */,
+				8929F43E1E2ABBD5000E11B8 /* LaunchScreen.storyboard */,
+			);
+			name = STORYBOARDS;
+			sourceTree = "<group>";
+		};
+		89BA6C8A1E2C44B200CD52EA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				89BA6C8B1E2C44C400CD52EA /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		DD87505C3D473493462F62BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C26107E6EE6190006DBAA30D /* Pods-YugiExercise.debug.xcconfig */,
+				4410398F9C687A32399B068D /* Pods-YugiExercise.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8929F4441E2ABBD5000E11B8 /* Build configuration list for PBXNativeTarget "YugiExercise" */;
 			buildPhases = (
+				702B2C3C3BF7568FB9CDE54E /* [CP] Check Pods Manifest.lock */,
 				8929F42E1E2ABBD5000E11B8 /* Sources */,
 				8929F42F1E2ABBD5000E11B8 /* Frameworks */,
 				8929F4301E2ABBD5000E11B8 /* Resources */,
+				3A75CF222CFF717F62003DE4 /* [CP] Embed Pods Frameworks */,
+				C0A584BC9F888DE1339F47BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +196,7 @@
 					8929F4311E2ABBD5000E11B8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 55C5VFS3G6;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,21 +224,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BA6C7D1E2ADDE300CD52EA /* QuatSteel Update 2015.ttf in Resources */,
+				89BA6C851E2C27E900CD52EA /* Starwars.csv in Resources */,
 				8929F4401E2ABBD5000E11B8 /* LaunchScreen.storyboard in Resources */,
 				8929F43D1E2ABBD5000E11B8 /* Assets.xcassets in Resources */,
+				89BA6C7B1E2AD78C00CD52EA /* ComicBubble.ttf in Resources */,
 				8929F43B1E2ABBD5000E11B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A75CF222CFF717F62003DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YugiExercise/Pods-YugiExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702B2C3C3BF7568FB9CDE54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A584BC9F888DE1339F47BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YugiExercise/Pods-YugiExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8929F42E1E2ABBD5000E11B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BA6C811E2AE28C00CD52EA /* MarvelCharacter.swift in Sources */,
 				8929F4381E2ABBD5000E11B8 /* ViewController.swift in Sources */,
 				8929F4361E2ABBD5000E11B8 /* AppDelegate.swift in Sources */,
+				89BA6C831E2AE4EC00CD52EA /* CharacterCell.swift in Sources */,
+				89BA6C8C1E2C44C400CD52EA /* Constants.swift in Sources */,
+				89BA6C871E2C285100CD52EA /* csv.swift in Sources */,
+				89BA6C891E2C35FD00CD52EA /* CharacterDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +413,9 @@
 		};
 		8929F4451E2ABBD5000E11B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26107E6EE6190006DBAA30D /* Pods-YugiExercise.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55C5VFS3G6;
 				INFOPLIST_FILE = YugiExercise/Info.plist;
@@ -270,7 +428,9 @@
 		};
 		8929F4461E2ABBD5000E11B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4410398F9C687A32399B068D /* Pods-YugiExercise.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 55C5VFS3G6;
 				INFOPLIST_FILE = YugiExercise/Info.plist;
@@ -300,6 +460,7 @@
 				8929F4461E2ABBD5000E11B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
